@@ -32,7 +32,7 @@ palette：字典，键为配置名，值为 RGB 颜色元组，表示该配置�
 
 'config5': (196, 216, 242),
 
-![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps1.jpg) 
+![img](file:///pic\\wps1.jpg) 
 
  
 
@@ -68,7 +68,7 @@ MSTIL——sensitivity
 
   从冷色到暖色的连续渐变调色
 
-![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps2.jpg) 
+![img](file:///pic\\wps2.jpg) 
 
  
 
@@ -96,7 +96,7 @@ MSTIL——task
 
 sns.set_theme(style="whitegrid", palette="muted")
 
-![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps3.jpg) 
+![img](file:///pic\\wps3.jpg) 
 
 Longtul——BrightkiteDrawACC
 
@@ -138,7 +138,7 @@ Longtul——BrightkiteDrawACC
 
 color='brown' 棕色
 
-![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps4.jpg) 
+![img](file:///pic\\wps4.jpg) 
 
  
 
@@ -162,7 +162,7 @@ Longtul——DrawLaplace
 
   viridis 配色（从概率密度最低值到最高值，颜色依次呈现「深紫 → 靛蓝 → 青蓝 → 亮绿 → 明黄」的平滑过渡）
 
-![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps5.jpg) 
+![img](file:///pic\\wps5.jpg) 
 
  
 
@@ -202,7 +202,7 @@ Longtul——drawParameters
 
 ​      (235/255,240/255,249/255),
 
-​    ]![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps6.jpg)
+​    ]![img](file:///pic\\wps6.jpg)
 
 Longtul——counts_trajNums
 
@@ -226,7 +226,7 @@ def plot_Recombined_user_counts(datasets,datasets_resample):
 
   color='#eb7765'
 
-![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps7.jpg) 
+![img](file:///pic\\wps7.jpg) 
 
 
 
@@ -260,7 +260,7 @@ ARC——参数_chi:
 
   color='#2ca02c'
 
-![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps8.jpg) 
+![img](file:///pic\\wps8.jpg) 
 
  
 
@@ -292,7 +292,7 @@ def plot_datasets_grid(datasets,random_prob,mask_ratio,titles,z_lims,z_ticks):
 
   colors = plt.cm.coolwarm(np.linspace(0, 1, len(mask_ratio)))
 
-![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps9.jpg) 
+![img](file:///pic\\wps9.jpg) 
 
 ARC——参数mask的3d图
 
@@ -322,7 +322,7 @@ ARC——参数mask的3d图
 
 cmap='viridis'
 
-![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps10.jpg) 
+![img](file:///pic\\wps10.jpg) 
 
  
 
@@ -358,7 +358,7 @@ ARC——参数敏感度
 
   colors = ['#A1C9F4', '#B8E0A7', '#F5B5B5']
 
-![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps11.jpg) 
+![img](file:///pic\\wps11.jpg) 
 
 ARC——时间和内容消耗
 
@@ -384,7 +384,7 @@ ARC——时间和内容消耗
 
   colors = ['#1f77b4', '#2ca02c', '#d62728', '#9467bd', '#8c564b']
 
-![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps12.jpg) 
+![img](file:///pic\\wps12.jpg) 
 
 ARC——画图对比
 
@@ -422,7 +422,7 @@ ARC——画图对比
 
   掩码部分：gray
 
-![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps13.jpg) 
+![img](file:///pic\\wps13.jpg) 
 
 ARC——消融
 
@@ -448,7 +448,7 @@ ARC——消融
 
 ​    colors = ['#43978F', '#9EC4BE', '#FFB77F', '#59A14F', '#4E79A7', '#F19685', '#F6C957', '#E15759']
 
-![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps14.jpg) 
+![img](file:///pic\\wps14.jpg) 
 
 
 画图——LineChart：
@@ -469,7 +469,7 @@ ARC——消融
 
   colors = ['#f57c6e', '#f2b56e', '#fbe79e', '#84c3b7', '#88d7da', '#71b8ed', '#b8aeea', '#f2a8da']
 
-![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps15.jpg) 
+![img](file:///pic\\wps15.jpg) 
 
 画图——RadarChart：
 
@@ -491,7 +491,7 @@ ARC——消融
 
 ​       '#b3de69', '#fccde5', '#ffed6f', '#bc80bd']
 
-![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps16.jpg) 
+![img](file:///pic\\wps16.jpg) 
 
 画图——DumbbellPlot：
 
@@ -517,7 +517,7 @@ ARC——消融
 
   line_color = '#D9D9D9'   # 连接线
 
-![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps17.jpg) 
+![img](file:///pic\\wps17.jpg) 
 
 画图——BarChart：
 
@@ -545,7 +545,7 @@ ARC——消融
 
   AUC_color = '#F78779'  # 橙
 
-![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps18.jpg) 
+![img](file:///pic\\wps18.jpg) 
 
 
 画图代码——AULAB——MI
@@ -578,7 +578,7 @@ ARC——消融
 
   color2 = '#0393AF'
 
-![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps19.jpg) 
+![img](file:///pic\\wps19.jpg) 
 
 画图代码——AULAB——time
 
@@ -602,7 +602,7 @@ ARC——消融
 
  
 
-![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps20.jpg) 
+![img](file:///pic\\wps20.jpg) 
 
  
 
@@ -618,7 +618,7 @@ ARC——消融
 
   poi_data:嵌套列表，每个子列表包含两个字符串元素，分别表示 POI 的纬度和经度。 
 
-![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps21.jpg) 
+![img](file:///pic\\wps21.jpg) 
 
 画图代码——AULAB——消融
 
@@ -644,7 +644,7 @@ ARC——消融
 
   colors = sns.color_palette("Set2", n_colors=6)
 
-![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps22.jpg) 
+![img](file:///pic\\wps22.jpg) 
 
 画图代码——AULAB——超参
 
@@ -664,7 +664,7 @@ x_labels：列表，长度为 n（与 data1 的列数一致），每个元素为
 
  3.配色：sns.set_palette("pastel")
 
-![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps23.jpg) 
+![img](file:///pic\\wps23.jpg) 
 
 画图代码——AULAB——热力图
 
@@ -680,7 +680,7 @@ x_labels：列表，长度为 n（与 data1 的列数一致），每个元素为
 
 ​    venue_file_path (str): 包含POI ID映射关系的文件路径（格式：VENUE_ID POI_ID）
 
-![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps24.jpg) 
+![img](file:///pic\\wps24.jpg) 
 
 画图代码——DTPTrajRec——Extreme case
 
@@ -706,7 +706,7 @@ x_labels：列表，长度为 n（与 data1 的列数一致），每个元素为
 
   colors = {'DTPTrajRec': '#4C72B0', 'MM-STGED': '#DD8452'}
 
-![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps25.jpg) 
+![img](file:///pic\\wps25.jpg) 
 
  
 
@@ -738,7 +738,7 @@ x_labels：列表，长度为 n（与 data1 的列数一致），每个元素为
 
   colors = sns.color_palette("coolwarm", n_colors=len(traindata_ratio))
 
-![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps26.jpg) 
+![img](file:///pic\\wps26.jpg) 
 
  
 
@@ -772,7 +772,7 @@ x_labels：列表，长度为 n（与 data1 的列数一致），每个元素为
 
   }
 
-![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps27.jpg) 
+![img](file:///pic\\wps27.jpg) 
 
  
 
@@ -803,7 +803,7 @@ MMAR——3d
 
   fixed_color = 'RdYlBu_r'
 
-![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps28.jpg) 
+![img](file:///pic\\wps28.jpg) 
 
 MMAR——3d_v3
 
@@ -829,7 +829,7 @@ MMAR——3d_v3
 
 3.配色：color='Spectral'
 
-![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps29.jpg) 
+![img](file:///pic\\wps29.jpg) 
 
  
 
@@ -853,7 +853,7 @@ MMAR——roc
 
 ​    title (str): 图表标题（默认'Receiver Operating Characteristic'）
 
-![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps30.jpg) 
+![img](file:///pic\\wps30.jpg) 
 
 MMAR——sim_dis_en
 
@@ -879,7 +879,7 @@ MMAR——sim_dis_en
 
   line_color = '#422256'
 
-![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps31.jpg) 
+![img](file:///pic\\wps31.jpg) 
 
 MMAR——plot_sens_agg_fun-acc：
 
@@ -907,8 +907,9 @@ MMAR——plot_sens_agg_fun-acc：
 
 3.配色：marker_colors = ['#2E8B57', '#376795', '#B91419']
 
-![img](file:///C:\Users\LCR\AppData\Local\Temp\ksohtml9984\wps32.jpg) 
+![img](file:///pic\\wps32.jpg) 
 
  
+
 
  
